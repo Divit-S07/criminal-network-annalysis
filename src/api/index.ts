@@ -3,7 +3,7 @@ import axios from "axios";
 // Axios instance for the Node.js/Express backend.
 // JWT is attached to every request when present.
 export const apiClient = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://localhost:3000/api",
+  baseURL: import.meta.env.VITE_API_URL || "http://localhost:3001/api",
   timeout: 30000,
 });
 
